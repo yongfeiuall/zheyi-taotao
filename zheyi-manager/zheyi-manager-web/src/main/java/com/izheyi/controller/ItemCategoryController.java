@@ -23,5 +23,4 @@ public class ItemCategoryController {
 		List<EasyUiTreeNode> result = itemCategoryService.getItemCategoryNode(parentId);
 		return result;
 	}
-
 }
