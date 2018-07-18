@@ -7,6 +7,9 @@
         <dependent-module archiveName="zheyi-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zheyi-common/zheyi-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="zheyi-manager-pojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/zheyi-manager-pojo/zheyi-manager-pojo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="zheyi-portal"/>
         <property name="java-output-path" value="/zheyi-portal/target/classes"/>
     </wb-module>
