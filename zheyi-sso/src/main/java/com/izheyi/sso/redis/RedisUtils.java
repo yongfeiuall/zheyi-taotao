@@ -1,4 +1,4 @@
-package com.zheyi.sso.redis;
+package com.izheyi.sso.redis;
 
 public interface RedisUtils {
 	String set(String key, String value);

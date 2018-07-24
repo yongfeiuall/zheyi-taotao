@@ -1,8 +1,8 @@
-package com.zheyi.sso.redis.impl;
+package com.izheyi.sso.redis.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.zheyi.sso.redis.RedisUtils;
+import com.izheyi.sso.redis.RedisUtils;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
