@@ -32,6 +32,4 @@ public class ItemController {
 		String string = itemService.getItemDescById(itemId);
 		return string;
 	}
-
-
 }
